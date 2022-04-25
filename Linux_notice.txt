@@ -1,0 +1,41 @@
+Ctrl+Alt+T 打开命令行
+
+cd	改变目录
+cd ..	回到上一层
+pwd	显示当前目录
+ls	列出文件
+mkdir	新建文件夹mkdir test
+touch	新建文件touch index.js
+rm	删除文件rm index.js
+rm -r	删除文件夹rm -r test
+mv	移动文件mv index.js test
+clear	清除指令
+exit	退出
+#	注释
+
+
+git
+
+git config -l	看配置
+git config --system --list
+git config --global --edit
+git config --global --list
+
+
+.gitignore		忽略
+
+git init	本地仓库	/    git clone [url]	克隆
+git status
+git add .	添加文件到暂存区
+git commit -m "new file hello.txt"	暂存区到本地仓库
+git push
+
+
+
+
+
+
+
+
+
+
